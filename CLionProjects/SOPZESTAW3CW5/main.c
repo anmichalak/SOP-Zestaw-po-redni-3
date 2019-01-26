@@ -10,8 +10,8 @@ void write_from_ile_to_file(char *source_file_path, FILE *target_file_handler) {
     }
 
     int c = getc(source_file_handler);                          //zczytuje pojedyńczy znak z klamki source_file_handler
-    while (c != EOF) {                                          // dopóki pojedzyńczy znak nie równa sie znakowi końca pliku to dodaje ten znak d target_file_handler i przechpdzi d
-        fputc(c, target_file_handler);                          //  nastepnego znaku
+    while (c != EOF) {                                          //dopóki pojedzyńczy znak nie równa sie znakowi końca pliku to dodaje ten znak d target_file_handler i przechpdzi d
+        fputc(c, target_file_handler);                          //nastepnego znaku
         c = getc(source_file_handler);                          // przechodzi do nastepnego znaku i pobiera z source_file_handler
                                                                 //kiedy dojdzie do konca petli to zammyka plik
     }
