@@ -1,0 +1,3 @@
+/Users/ania/CLionProjects/SOPZESTAW3CW5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ania/CLionProjects/SOPZESTAW3CW5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ania/CLionProjects/SOPZESTAW3CW5/cmake-build-debug/CMakeFiles/SOPZESTAW3CW5.dir
